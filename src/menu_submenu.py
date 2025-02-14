@@ -70,6 +70,7 @@ def send_welcome(message):
     bot.send_message(message.chat.id, 'Main Menu', reply_markup=main_menu())
 
 
+
 # Callback query handler
 @bot.callback_query_handler(func=lambda call:True)
 def callback_query(call):
