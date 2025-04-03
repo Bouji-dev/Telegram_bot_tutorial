@@ -43,6 +43,7 @@ def send_welcome(message):
         
         bot.delete_message(chat_id= call.message.chat.id, message_id= mid)
         bot.send_message(chat_id= call.message.chat.id, text="Message deleted")
+        #comment
 
 
 
